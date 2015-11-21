@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{31F20EEE-C2F7-431C-98B2-A081A12098A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{4140D895-2296-42EE-9A13-A58AFAB46EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.SmsService", "YekanPedia.SmsManagement.SmsService\YekanPedia.SmsManagement.SmsService.csproj", "{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B} = {4140D895-2296-42EE-9A13-A58AFAB46EBE}
 	EndGlobalSection
 EndGlobal
