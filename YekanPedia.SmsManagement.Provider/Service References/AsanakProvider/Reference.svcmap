@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5d2e4630-61b0-4711-b987-1934a505ad24" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1d89f0f9-b2f1-440a-a59d-0ddd4b192d80" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,7 +22,7 @@
     <MetadataSource Address="http://ws.asanak.ir:8082/services/CompositeSmsGateway?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CompositeSmsGatewayService.wsdl" MetadataType="Wsdl" ID="f03cb8a4-f185-4142-b9ce-8657423ff99a" SourceId="1" SourceUrl="http://ws.asanak.ir:8082/services/CompositeSmsGateway?wsdl" />
+    <MetadataFile FileName="CompositeSmsGatewayService.wsdl" MetadataType="Wsdl" ID="1a7f7d3a-586f-40ec-bcfd-fc78ff67ecfa" SourceId="1" SourceUrl="http://ws.asanak.ir:8082/services/CompositeSmsGateway?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

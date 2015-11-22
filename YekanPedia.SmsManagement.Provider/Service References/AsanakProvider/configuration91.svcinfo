@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="d+hSWnZGzyc/2ZT2xWqjhDJOFOw=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="XBVbKJrdEe1ssTiIjNx5KvHLzA0=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="CompositeSmsGatewayServiceSoapBinding">
       <properties>
@@ -112,7 +112,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="CompositeSmsGateway" contract="AsanakSmsGateway.CompositeSmsGateway" bindingType="basicHttpBinding" address="http://ws.asanak.ir:8082/services/CompositeSmsGateway" bindingConfiguration="CompositeSmsGatewayServiceSoapBinding">
+    <endpoint name="CompositeSmsGateway" contract="AsanakProvider.CompositeSmsGateway" bindingType="basicHttpBinding" address="http://ws.asanak.ir:8082/services/CompositeSmsGateway" bindingConfiguration="CompositeSmsGatewayServiceSoapBinding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://ws.asanak.ir:8082/services/CompositeSmsGateway</serializedValue>
@@ -127,7 +127,7 @@
           <serializedValue>CompositeSmsGatewayServiceSoapBinding</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>AsanakSmsGateway.CompositeSmsGateway</serializedValue>
+          <serializedValue>AsanakProvider.CompositeSmsGateway</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

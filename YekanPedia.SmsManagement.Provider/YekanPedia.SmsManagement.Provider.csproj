@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,6 +44,59 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\AsanakProvider\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SmsProviders\Asanak\AsanakSmsProvider.cs" />
+    <Compile Include="SmsProviders\Asanak\IAsanakSmsProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\AsanakProvider\CompositeSmsGatewayService.wsdl" />
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AsanakProvider\YekanPedia.SmsManagement.Provider.AsanakProvider.userCreditResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AsanakProvider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AsanakProvider\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AsanakProvider\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AsanakProvider\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

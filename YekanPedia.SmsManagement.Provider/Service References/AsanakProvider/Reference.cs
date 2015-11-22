@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
+namespace YekanPedia.SmsManagement.Provider.AsanakProvider {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", ConfigurationName="AsanakSmsGateway.CompositeSmsGateway")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", ConfigurationName="AsanakProvider.CompositeSmsGateway")]
     public interface CompositeSmsGateway {
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
@@ -20,40 +20,40 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseResult))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse getReportByMsgId(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId request);
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse getReportByMsgId(YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse> getReportByMsgIdAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId request);
-        
-        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseResult))]
-        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse getReceivedMsg(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse> getReceivedMsgAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg request);
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse> getReportByMsgIdAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseResult))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse getUserCredit(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit request);
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse getReceivedMsg(YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse> getUserCreditAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit request);
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse> getReceivedMsgAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseResult))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse sendSms(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms request);
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse getUserCredit(YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse> sendSmsAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms request);
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse> getUserCreditAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseResult))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse sendSms(YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse> sendSmsAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms request);
     }
     
     /// <remarks/>
@@ -456,7 +456,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("msgIds", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -465,7 +465,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         public getReportByMsgId() {
         }
         
-        public getReportByMsgId(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, long[] msgIds) {
+        public getReportByMsgId(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, long[] msgIds) {
             this.userCredential = userCredential;
             this.msgIds = msgIds;
         }
@@ -479,12 +479,12 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResult @return;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResult @return;
         
         public getReportByMsgIdResponse() {
         }
         
-        public getReportByMsgIdResponse(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResult @return) {
+        public getReportByMsgIdResponse(YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResult @return) {
             this.@return = @return;
         }
     }
@@ -497,7 +497,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("destAddresses", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -514,7 +514,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         public getReceivedMsg() {
         }
         
-        public getReceivedMsg(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
+        public getReceivedMsg(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
             this.userCredential = userCredential;
             this.destAddresses = destAddresses;
             this.fromTime = fromTime;
@@ -530,12 +530,12 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResult @return;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResult @return;
         
         public getReceivedMsgResponse() {
         }
         
-        public getReceivedMsgResponse(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResult @return) {
+        public getReceivedMsgResponse(YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResult @return) {
             this.@return = @return;
         }
     }
@@ -548,12 +548,12 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential;
         
         public getUserCredit() {
         }
         
-        public getUserCredit(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential) {
+        public getUserCredit(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential) {
             this.userCredential = userCredential;
         }
     }
@@ -566,12 +566,12 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCreditResult @return;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCreditResult @return;
         
         public getUserCreditResponse() {
         }
         
-        public getUserCreditResponse(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCreditResult @return) {
+        public getUserCreditResponse(YekanPedia.SmsManagement.Provider.AsanakProvider.userCreditResult @return) {
             this.@return = @return;
         }
     }
@@ -584,7 +584,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("srcAddresses", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -605,7 +605,7 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         public sendSms() {
         }
         
-        public sendSms(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
+        public sendSms(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
             this.userCredential = userCredential;
             this.srcAddresses = srcAddresses;
             this.destAddresses = destAddresses;
@@ -622,23 +622,23 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://webService.compositeSmsGateway.services.sdp.peykasa.com/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResult @return;
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResult @return;
         
         public sendSmsResponse() {
         }
         
-        public sendSmsResponse(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResult @return) {
+        public sendSmsResponse(YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResult @return) {
             this.@return = @return;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface CompositeSmsGatewayChannel : YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway, System.ServiceModel.IClientChannel {
+    public interface CompositeSmsGatewayChannel : YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CompositeSmsGatewayClient : System.ServiceModel.ClientBase<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway>, YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway {
+    public partial class CompositeSmsGatewayClient : System.ServiceModel.ClientBase<YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway>, YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway {
         
         public CompositeSmsGatewayClient() {
         }
@@ -660,111 +660,111 @@ namespace YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getReportByMsgId(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId request) {
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getReportByMsgId(YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId request) {
             return base.Channel.getReportByMsgId(request);
         }
         
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResult getReportByMsgId(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, long[] msgIds) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId();
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResult getReportByMsgId(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, long[] msgIds) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId();
             inValue.userCredential = userCredential;
             inValue.msgIds = msgIds;
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse retVal = ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getReportByMsgId(inValue);
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse retVal = ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getReportByMsgId(inValue);
             return retVal.@return;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse> YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getReportByMsgIdAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId request) {
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse> YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getReportByMsgIdAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId request) {
             return base.Channel.getReportByMsgIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgIdResponse> getReportByMsgIdAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, long[] msgIds) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReportByMsgId();
+        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgIdResponse> getReportByMsgIdAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, long[] msgIds) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getReportByMsgId();
             inValue.userCredential = userCredential;
             inValue.msgIds = msgIds;
-            return ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getReportByMsgIdAsync(inValue);
+            return ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getReportByMsgIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getReceivedMsg(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg request) {
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getReceivedMsg(YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg request) {
             return base.Channel.getReceivedMsg(request);
         }
         
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResult getReceivedMsg(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg();
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResult getReceivedMsg(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg();
             inValue.userCredential = userCredential;
             inValue.destAddresses = destAddresses;
             inValue.fromTime = fromTime;
             inValue.maxReturnedMsg = maxReturnedMsg;
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse retVal = ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getReceivedMsg(inValue);
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse retVal = ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getReceivedMsg(inValue);
             return retVal.@return;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse> YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getReceivedMsgAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg request) {
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse> YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getReceivedMsgAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg request) {
             return base.Channel.getReceivedMsgAsync(request);
         }
         
-        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsgResponse> getReceivedMsgAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getReceivedMsg();
+        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsgResponse> getReceivedMsgAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] destAddresses, long fromTime, int maxReturnedMsg) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getReceivedMsg();
             inValue.userCredential = userCredential;
             inValue.destAddresses = destAddresses;
             inValue.fromTime = fromTime;
             inValue.maxReturnedMsg = maxReturnedMsg;
-            return ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getReceivedMsgAsync(inValue);
+            return ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getReceivedMsgAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getUserCredit(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit request) {
+        YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getUserCredit(YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit request) {
             return base.Channel.getUserCredit(request);
         }
         
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCreditResult getUserCredit(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit();
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.userCreditResult getUserCredit(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit();
             inValue.userCredential = userCredential;
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse retVal = ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getUserCredit(inValue);
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse retVal = ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getUserCredit(inValue);
             return retVal.@return;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse> YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.getUserCreditAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit request) {
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse> YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.getUserCreditAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit request) {
             return base.Channel.getUserCreditAsync(request);
         }
         
-        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCreditResponse> getUserCreditAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.getUserCredit();
+        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCreditResponse> getUserCreditAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.getUserCredit();
             inValue.userCredential = userCredential;
-            return ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).getUserCreditAsync(inValue);
+            return ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).getUserCreditAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.sendSms(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms request) {
+        YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.sendSms(YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms request) {
             return base.Channel.sendSms(request);
         }
         
-        public YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResult sendSms(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms();
+        public YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResult sendSms(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms();
             inValue.userCredential = userCredential;
             inValue.srcAddresses = srcAddresses;
             inValue.destAddresses = destAddresses;
             inValue.msgBody = msgBody;
             inValue.msgEncoding = msgEncoding;
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse retVal = ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).sendSms(inValue);
+            YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse retVal = ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).sendSms(inValue);
             return retVal.@return;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse> YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway.sendSmsAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms request) {
+        System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse> YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway.sendSmsAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms request) {
             return base.Channel.sendSmsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSmsResponse> sendSmsAsync(YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
-            YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms inValue = new YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.sendSms();
+        public System.Threading.Tasks.Task<YekanPedia.SmsManagement.Provider.AsanakProvider.sendSmsResponse> sendSmsAsync(YekanPedia.SmsManagement.Provider.AsanakProvider.userCredential userCredential, string[] srcAddresses, string[] destAddresses, string[] msgBody, int[] msgEncoding) {
+            YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms inValue = new YekanPedia.SmsManagement.Provider.AsanakProvider.sendSms();
             inValue.userCredential = userCredential;
             inValue.srcAddresses = srcAddresses;
             inValue.destAddresses = destAddresses;
             inValue.msgBody = msgBody;
             inValue.msgEncoding = msgEncoding;
-            return ((YekanPedia.SmsManagement.InfraStructure.AsanakSmsGateway.CompositeSmsGateway)(this)).sendSmsAsync(inValue);
+            return ((YekanPedia.SmsManagement.Provider.AsanakProvider.CompositeSmsGateway)(this)).sendSmsAsync(inValue);
         }
     }
 }
