@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace YekanPedia.SmsManagement.InfraStructure.Utility
+﻿namespace YekanPedia.SmsManagement.InfraStructure
 {
-    public class SMSUtility
+    using System;
+    using System.Collections.Generic;
+    public static class SmsUtility
     {
         public static int MaxSmsLengthUnicode = 420;
         public static int MaxSmsLengthNonUnicode = 750;
-        public static List<string> SMSSegmentChecker(string Message, bool PersianEncoding)
+        public static List<string> SmsSegmentChecker(string Message, bool PersianEncoding)
         {
             var result = new List<string>();
             int len = 0, offset = 0;

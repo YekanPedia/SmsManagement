@@ -45,14 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\SMSUtility.cs" />
+    <Compile Include="Utility\SmsUtility.cs" />
     <Compile Include="Utility\Validation.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\YekanPedia.SmsManagement.ViewModel\YekanPedia.SmsManagement.ViewModel.csproj">
-      <Project>{8f5a9a98-ed62-4c8e-b6e5-48c5e4442dad}</Project>
-      <Name>YekanPedia.SmsManagement.ViewModel</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

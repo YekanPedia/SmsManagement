@@ -7,17 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{31F20E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{4140D895-2296-42EE-9A13-A58AFAB46EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.SmsService", "YekanPedia.SmsManagement.SmsService\YekanPedia.SmsManagement.SmsService.csproj", "{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.Provider", "YekanPedia.SmsManagement.Provider\YekanPedia.SmsManagement.Provider.csproj", "{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.InfraStructure", "YekanPedia.SmsManagement.InfraStructure\YekanPedia.SmsManagement.InfraStructure.csproj", "{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.ViewModel", "YekanPedia.SmsManagement.ViewModel\YekanPedia.SmsManagement.ViewModel.csproj", "{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.Bussiness", "YekanPedia.SmsManagement.Bussiness\YekanPedia.SmsManagement.Bussiness.csproj", "{4165C6A1-5658-4A59-923F-57A8AAD3B875}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.DependencyResolver", "YekanPedia.SmsManagement.DependencyResolver\YekanPedia.SmsManagement.DependencyResolver.csproj", "{BDA1891C-5F09-4829-A477-1938B3C14750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStructure", "InfraStructure", "{5EE594A2-209B-4008-94F7-C3B42616A1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.Domain", "YekanPedia.SmsManagement.Domain\YekanPedia.SmsManagement.Domain.csproj", "{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.Service", "YekanPedia.SmsManagement.Service\YekanPedia.SmsManagement.Service.csproj", "{4165C6A1-5658-4A59-923F-57A8AAD3B875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.ExternalService", "YekanPedia.SmsManagement.ExternalService\YekanPedia.SmsManagement.ExternalService.csproj", "{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.SmsManagement.SmsProxy", "YekanPedia.SmsManagement.SmsProxy\YekanPedia.SmsManagement.SmsProxy.csproj", "{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +27,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA1891C-5F09-4829-A477-1938B3C14750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA1891C-5F09-4829-A477-1938B3C14750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA1891C-5F09-4829-A477-1938B3C14750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA1891C-5F09-4829-A477-1938B3C14750}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,20 +43,24 @@ Global
 		{4165C6A1-5658-4A59-923F-57A8AAD3B875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4165C6A1-5658-4A59-923F-57A8AAD3B875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4165C6A1-5658-4A59-923F-57A8AAD3B875}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BDA1891C-5F09-4829-A477-1938B3C14750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDA1891C-5F09-4829-A477-1938B3C14750}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDA1891C-5F09-4829-A477-1938B3C14750}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDA1891C-5F09-4829-A477-1938B3C14750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B} = {4140D895-2296-42EE-9A13-A58AFAB46EBE}
-		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
-		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
+		{8C7E1CA8-948F-47CF-A6C2-5911DEC33C48} = {5EE594A2-209B-4008-94F7-C3B42616A1C3}
+		{BDA1891C-5F09-4829-A477-1938B3C14750} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
 		{8F5A9A98-ED62-4C8E-B6E5-48C5E4442DAD} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
 		{4165C6A1-5658-4A59-923F-57A8AAD3B875} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
-		{BDA1891C-5F09-4829-A477-1938B3C14750} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
+		{AC35E9B9-ADFE-4735-B66C-EDCB9A3FB3E8} = {31F20EEE-C2F7-431C-98B2-A081A12098A8}
+		{120C3AAB-BA8D-4F93-BBC7-32AE625CCA4B} = {4140D895-2296-42EE-9A13-A58AFAB46EBE}
 	EndGlobalSection
 EndGlobal
