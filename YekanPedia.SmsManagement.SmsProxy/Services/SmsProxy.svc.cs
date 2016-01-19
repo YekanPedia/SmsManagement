@@ -22,12 +22,10 @@
         {
             _smsService = smsService;
         }
-
         public CreditResult GetCredit()
         {
             return _smsService.GetCredit();
         }
-
         public SmsServiceSendResult Send(SmsList smsList)
         {
             var result = new SmsServiceSendResult();

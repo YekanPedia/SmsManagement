@@ -1,4 +1,4 @@
-﻿namespace YekanPedia.SmsManagement.Service.Implemente
+﻿namespace YekanPedia.SmsManagement.Service.Implement
 {
     using System;
     using System.Linq;

@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implemente\ProviderSmsResult.cs" />
+    <Compile Include="Implement\ProviderSmsResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Implemente\AsanakProviderAdaper.cs" />
+    <Compile Include="Implement\AsanakProviderAdaper.cs" />
     <Compile Include="Interfaces\IAsanakProviderAdaper.cs" />
     <Compile Include="Service References\AsanakProvider\Reference.cs">
       <AutoGen>True</AutoGen>

@@ -4,9 +4,9 @@
     using StructureMap;
     using Service.Interfaces;
     using StructureMap.Web.Pipeline;
-    using Service.Implemente;
+    using Service.Implement;
     using ExternalService.Interfaces;
-    using ExternalService.Implemente;
+    using ExternalService.Implement;
 
     public static class IocInitializer
     {
